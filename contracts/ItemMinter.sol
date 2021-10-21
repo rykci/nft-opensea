@@ -8,7 +8,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 
 
 
-contract Dataset is ERC721URIStorage, Ownable {
+contract ItemMinter is ERC721URIStorage, Ownable {
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIds;
 
@@ -22,7 +22,7 @@ contract Dataset is ERC721URIStorage, Ownable {
 
     // for opensea collection 
     function contractURI() public pure returns (string memory) {
-        return "https://ipfs.io/ipfs/your-collection-ipfshash";
+        return "https://ipfs.io/ipfs/QmNoHTEpL9rhAx5Ba9Qs1auUxfJmTgWwYyjEAdutssRHJj";
     }
 
     
