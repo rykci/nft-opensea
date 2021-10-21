@@ -1,15 +1,6 @@
-# Basic Sample Hardhat Project
+# NFTs on Opensea via Mumbai Network
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This repository allows me to deploy an ERC-721 contract and mint NFTs to be shown on Opensea.
+I followed [this tutorial](https://dev.to/yournewempire/deploy-nfts-with-truffle-ipfs-opensea-polygon-5581)
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+Using IPFS, I get the CID for my metadata JSON files used to mint.
